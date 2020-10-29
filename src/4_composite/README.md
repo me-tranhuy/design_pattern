@@ -1,9 +1,11 @@
 # Composite Pattern là gì?
 
 * Composite Pattern là một trong những Pattern thuộc nhóm cấu trúc (Structural Pattern)
-* Composite cho phép thực hiện các tương tác với tất cả đối tượng trong mẫu tương tự nhau.
-* Một đối tượng Composite được tạo thành từ một hay nhiều đối tượng tương tự nhau (hoặc có một số chức năng tương tự nhau).   
-
+* Composite pattern được sử dụng khi chúng ta cần xử lý một nhóm đối tượng tương tự theo cách xử lý 1 object. 
+* Composite pattern sắp xếp các ojbect theo cấu trúc cây để diễn giải 1 phần cũng như toàn bộ hệ thống phân cấp. 
+Kiểu thiết kế này xuất hiện dưới dạng cấu trúc vì pattern này tạo ra nhóm sơ đồ cây cho object, pattern này tạo một lớp chứa nhóm đối tượng của riêng nó. 
+Lớp này cung cấp các cách để sửa đổi nhóm của cùng 1 object.
+  
 * 1 Template method thường sẽ có interface class và Concrete Class 
 
 # Lợi ích 
